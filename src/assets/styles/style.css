@@ -80,6 +80,13 @@ button:focus-visible {
 	outline: 4px auto -webkit-focus-ring-color;
 }
 
+.long-btn {
+	min-width: 98%;
+	width: 98%;
+	max-width: 98%;
+	margin-left: 1%;
+}
+
 .card {
 	padding: 2em;
 }

@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import { Quasar } from 'quasar'
+import { Quasar, Notify } from 'quasar'
 import quasarLang from 'quasar/lang/es'
 import router from './assets/scripts/router.js'
 
@@ -18,7 +18,9 @@ import App from './App.vue'
 
 createApp(App)
 .use(Quasar, {
-	plugins: {},
+	plugins: {
+		Notify
+	},
 	lang: quasarLang
 })
 .use(router)
