@@ -9,9 +9,10 @@ Además, se espera que esta carpeta siga siendo utilizada para almacenar los mis
 - assets/
 	- documents/
 		- docx/
+		- pdf/
 		- pptx/
-		- xlsx/
 		- txt/
+		- xlsx/
 	- images/
 		- backgrounds/
 		- favicon/
