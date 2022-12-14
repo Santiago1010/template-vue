@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 // Importar layouts
-import MainLayout from '../../layouts/MainLayout.vue'
+import MainLayout from '../../../layouts/MainLayout.vue'
 
 // Importar páginas
-import Index from '../../pages/Index.vue'
+import Index from '../../../pages/Index.vue'
 
-import NotFound from '../../pages/NotFound.vue'
+import NotFound from '../../../pages/NotFound.vue'
 
 const routes = [
 	{
