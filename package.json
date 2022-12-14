@@ -7,7 +7,7 @@
 	"license": "MIT License",
 	"description": "This project is a template for applications developed with Vue.js. It includes a set of libraries, components, and pages that make it easier to develop applications with Vue.js. The template is designed to be easily customizable and extensible, allowing developers to save time and effort when creating their applications. The libraries, components, and pages included in the template are tested and optimized to offer optimal performance on different devices and browsers. The template also includes a full set of development tools and documentation to help developers get started quickly and efficiently.",
 	"type": "module",
-	"keywords": ["vue", "quasar", "primevue", "javascript"],
+	"keywords": ["Vue.js", "Vite.js", "Quasar.js", "PrimeVue", "Plantilla", "Framework", "Desarrollo web", "Single-page application (SPA)", "Interfaz de usuario (UI)", "Componentes", "Reactividad", "Reutilización de código", "Velocidad", "Eficiencia", "Productividad", "Modernidad", "Flexibilidad", "Personalización", "Guía de estilo", "Buenas prácticas", "Comunidad", "Documentación", "VueJS", "ViteJS", "QuasarJS", "Prime-Vue", "Template", "Layout", "Library", "Web development", "Web design", "User interface", "Code reuse", "Code sharing", "Best practices", "Good practices", "Community", "Forum", "Documentation", "Docs"],
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
