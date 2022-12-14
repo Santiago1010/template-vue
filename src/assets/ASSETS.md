@@ -23,10 +23,10 @@ Además, se espera que esta carpeta siga siendo utilizada para almacenar los mis
 	- scripts/
 		- functions/
 		- plugins/
-		- store/
+		- stores/
 	- styles/
-		- sass/
 		- css/
+		- sass/
 	- videos/
 
 Cabe aclarar que las subcarpetas son sólo una recomendación del orden propuesto para mantener unidad en la creación de las mismas, repercutiendo direcatemente en el manejo del proyecto.
