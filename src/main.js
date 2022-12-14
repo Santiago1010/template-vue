@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import { Quasar, Notify } from 'quasar'
 import quasarLang from 'quasar/lang/es'
-import router from './assets/scripts/router.js'
+import router from './assets/scripts/plugins/router.js'
 import PrimeVue from 'primevue/config'
 
 // Import icon libraries
@@ -13,7 +13,7 @@ import '@quasar/extras/material-icons-sharp/material-icons-sharp.css'
 
 // Import styles
 import 'quasar/src/css/index.sass'
-import './assets/styles/style.css'
+import './assets/styles/css/style.css'
 
 // Import Prime Vue Styles
 import 'primevue/resources/themes/saga-blue/theme.css'

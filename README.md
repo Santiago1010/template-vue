@@ -1,7 +1,5 @@
-# Vue 3 + Vite
+# VUE TEMPLATE
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project is a template for applications developed with Vue.js. It includes a set of libraries, components, and pages that make it easier to develop applications with Vue.js. The template uses libraries and modules such as PrimeVue, Quasar, Pinia, Axios, CryptoJS, GSAP, Vue Router, among others. The template is designed to be easily customizable and extensible, allowing developers to save time and effort when creating their applications. The libraries, components, and pages included in the template are tested and optimized to offer optimal performance on different devices and browsers. The template also includes a full set of development tools and documentation to help developers get started quickly and efficiently.
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## Index

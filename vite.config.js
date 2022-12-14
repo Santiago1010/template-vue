@@ -9,7 +9,7 @@ export default defineConfig({
         }),
 
         quasar({
-            sassVariables: './src/assets/styles/quasar-variables.sass'
+            sassVariables: './src/assets/styles/sass/quasar-variables.sass'
         })
     ]
 })
