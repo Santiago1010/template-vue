@@ -69,6 +69,7 @@ This project is a template for applications developed with Vue.js. It includes a
 - vite.config.js
 
 proyecto/
+
 ├── src/
 
 │ ├── components/
@@ -85,4 +86,13 @@ proyecto/
 
 │ └── favicon.ico
 
+└── .editorconfig
+└── .env.example
+└── .gitignore
+└── .htaccess
+└── index.html
+└── LICENSE
+└── package-lock.json
 └── package.json
+└── README.md
+└── vite.config.js
