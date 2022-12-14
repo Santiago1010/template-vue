@@ -6,71 +6,19 @@ This project is a template for applications developed with Vue.js. It includes a
 
 ## Carpetas y archivos por defecto
 
-###### template/
-- .vscode/
-	- extensions.json
-- src/
-	- assets/
-		- documents/
-			- docx/
-				- .deleteThis
-			- pdf/
-				- .deleteThis
-			- pptx/
-				- .deleteThis
-			- txt/
-				- .deleteThis
-			- xlsx/
-				- .deleteThis
-		- images/
-			- backgrounds/
-				- .deleteThis
-			- favicon/
-				- .deleteThis
-			- icons/
-				- .deleteThis
-			- illustrations/
-				- .deleteThis
-			- logos/
-				- .deleteThis
-			- photos/
-				- .deleteThis
-		- scripts/
-			- functions/
-				- Security.js
-			- plugins/
-				- axios.js
-				- router.js
-			- stores/
-				- rules.js
-		- styles/
-			- css/
-				- style.css
-			- sass/
-				 - quasar-variables.sass
-		- videos/
-			- .deleteThis
-	- components/
-	- layouts/
-		- MainLayout.vue
-		- SessionLayout.vue
-	- pages/
-	- App.vue
-	- main.js
-- .editorconfig
-- .env.example
-- .gitignore
-- .htaccess
-- index.html
-- LICENSE
-- package-lock.json
-- package.json
-- README.md
-- vite.config.js
-
 proyecto/
 
+├── .vscode/
+
+│ ├── extensions.json
+
 ├── src/
+
+│ ├── assets/
+
+│ │ ├── documents/
+
+│ │ │ ├── .deleteThis
 
 │ ├── components/
 
@@ -80,19 +28,22 @@ proyecto/
 
 │ └── App.vue
 
-├── public/
+├── .editorconfig
 
-│ ├── index.html
+├── .env.example
 
-│ └── favicon.ico
+├── .gitignore
 
-└── .editorconfig
-└── .env.example
-└── .gitignore
-└── .htaccess
-└── index.html
-└── LICENSE
-└── package-lock.json
-└── package.json
-└── README.md
+├── .htaccess
+
+├── index.html
+
+├── LICENSE
+
+├── package-lock.json
+
+├── package.json
+
+├── README.md
+
 └── vite.config.js
