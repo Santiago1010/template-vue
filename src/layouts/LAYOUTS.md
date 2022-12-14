@@ -1,41 +1,15 @@
-# ASSETS
+# LAYOUTS
 
-Esta carpeta contiene una variedad de archivos, incluyendo imágenes, scripts, estilos, videos y documentos. Todos estos archivos están relacionados y son importantes para el propósito de la carpeta. Los contenidos de la carpeta pueden ser utilizados juntos o de manera individual, dependiendo de las necesidades del desarrollo. La carpeta es una herramienta valiosa para almacenar y organizar estos archivos de manera eficiente.
-
-Además, se espera que esta carpeta siga siendo utilizada para almacenar los mismos tipos de archivos y que se mantenga organizada en las mismas subcarpetas. Esto permitirá un fácil acceso a los archivos y una organización eficiente. Se recomienda revisar regularmente la carpeta y sus subcarpetas para asegurarse de que están ordenados y se mantienen actualizados.
+Escribe una introducción de 2 párrafos para una sección de layouts, explicando qué es en el contexto de vue.js, cuál es su funcionamiento y las reglas que se deben seguir para crearlos.
 
 ## Rutas de las subcarpetas
 ###### @/src/
-- assets/
-	- documents/
-		- docx/
-		- pptx/
-		- xlsx/
-		- txt/
-	- images/
-		- backgrounds/
-		- favicon/
-		- icons/
-		- illustrations/
-		- logos/
-		- photos/
-	- scripts/
-		- functions/
-		- plugins/
-		- store/
-	- styles/
-		- sass/
-		- css/
-	- videos/
+- layouts/
 
-Cabe aclarar que las subcarpetas son sólo una recomendación del orden propuesto para mantener unidad en la creación de las mismas, repercutiendo direcatemente en el manejo del proyecto.
+Si bien no se recomiendan subcarpetas, esta es una decisión que compete netamente al equipo de desarrollo, basados en las necesidades del proyecto.
 
 ### Reglas de las subcarpetas
 1. **Las subcarpetas creadas deben siempre tener un nombre en minúsculas**. Esto se debe a que, en sistemas operativos como Linux y macOS, la distinción entre mayúsculas y minúsculas en los nombres de archivos y carpetas es relevante. Por lo tanto, para evitar confusiones y asegurarnos de que los archivos y carpetas sean reconocidos correctamente por el sistema operativo, es importante seguir esta regla y utilizar exclusivamente minúsculas en los nombres de las subcarpetas.
-
-2. **Los archivos que se deben almacenar deben ser agrupados y sub agrupados de la forma más específica posible, con el objetivo de facilitar su organización y localización**. Por ejemplo, si se pretende guardar un logo, debería seguir la ruta `@/src/assets/images/logos/logo.png`, donde "src" representa la carpeta principal de código fuente, "assets" contiene todos los recursos utilizados por el código (como imágenes, fuentes, etc.), "images" contiene todas las imágenes, "logos" contiene todos los logos y "logo.png" es el archivo del logo en cuestión. De esta forma, se puede acceder fácilmente al archivo desde cualquier parte del código fuente y se garantiza su organización en una estructura lógica y consistente.
-
-3. **Los archivos deben mantenerse agrupados por extensión, incluso si esto implica crear subcarpetas adicionales**. Esto se debe a que, al agrupar los archivos por extensión, se facilita su organización y localización. Por ejemplo, si se tiene una carpeta que contiene imágenes y documentos, se pueden crear subcarpetas para separar las imágenes y los documentos, lo que permitirá acceder a cada tipo de archivo de forma rápida y sencilla. Además, al mantener la misma extensión en una misma subcarpeta, se evita la confusión y se garantiza que se utilicen las herramientas adecuadas para abrir y editar cada tipo de archivo.
 
 ### Reglas de los archivos
 1. **Las imágenes, especialmente las de formato png, no deberían sobrepasar los 70 KB de espacio en memoria**. Esto se debe a que, al utilizar imágenes de tamaño reducido, se ahorra espacio en el almacenamiento del dispositivo y se reduce el tiempo de carga de la página web o aplicación en la que se utilicen. Además, al utilizar imágenes de menor tamaño, se mejora el rendimiento de la aplicación y se garantiza una experiencia de usuario satisfactoria. Sin embargo, se acepta un máximo de 150 KB para las imágenes, ya que en algunos casos es posible que sea necesario utilizar imágenes de mayor calidad o resolución para garantizar una visualización adecuada en diferentes dispositivos y pantallas.
