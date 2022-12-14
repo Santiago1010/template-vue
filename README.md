@@ -70,29 +70,20 @@ This project is a template for applications developed with Vue.js. It includes a
 
 proyecto/
 
-
 ├── src/
-
 
 │ ├── components/
 
-
 │ │ ├── Button.vue
-
 
 │ │ └── Input.vue
 
-
 │ └── App.vue
-
 
 ├── public/
 
-
 │ ├── index.html
 
-
 │ └── favicon.ico
-
 
 └── package.json
