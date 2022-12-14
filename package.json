@@ -1,29 +1,40 @@
 {
-  "name": "template",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@quasar/extras": "^1.15.5",
-    "axios": "^1.1.3",
-    "crypto-js": "^4.1.1",
-    "gsap": "^3.11.3",
-    "pinia": "^2.0.23",
-    "primeicons": "^6.0.1",
-    "primevue": "^3.21.0",
-    "quasar": "^2.10.1",
-    "vue": "^3.2.41",
-    "vue-router": "^4.1.6"
-  },
-  "devDependencies": {
-    "@quasar/vite-plugin": "^1.2.3",
-    "@vitejs/plugin-vue": "^3.2.0",
-    "sass": "^1.32.12",
-    "vite": "^3.2.0"
-  }
+	"name": "template-vue",
+	"main": "index.html",
+	"private": true,
+	"version": "1.0.0",
+	"author": "Santiago Correa Aguirre <santiago.c.a_10@hotmail.es>",
+	"license": "MIT License",
+	//"description": "Este proyecto es una plantilla para aplicaciones desarrolladas con Vue.js. Incluye un conjunto de librerías, componentes y páginas que facilitan el desarrollo de aplicaciones con Vue.js. La plantilla está diseñada para ser fácilmente personalizable y extensible, permitiendo a los desarrolladores ahorrar tiempo y esfuerzo al crear sus aplicaciones. Las librerías, componentes y páginas incluidos en la plantilla están probados y optimizados para ofrecer un rendimiento óptimo en diferentes dispositivos y navegadores. La plantilla también incluye un conjunto completo de herramientas de desarrollo y documentación para ayudar a los desarrolladores a empezar a trabajar de forma rápida y eficiente.",
+	"description": "This project is a template for applications developed with Vue.js. It includes a set of libraries, components, and pages that make it easier to develop applications with Vue.js. The template is designed to be easily customizable and extensible, allowing developers to save time and effort when creating their applications. The libraries, components, and pages included in the template are tested and optimized to offer optimal performance on different devices and browsers. The template also includes a full set of development tools and documentation to help developers get started quickly and efficiently.",
+	"type": "module",
+	"keywords": ["vue", "quasar", "primevue", "javascript"],
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"@quasar/extras": "^1.15.5",
+		"axios": "^1.1.3",
+		"crypto-js": "^4.1.1",
+		"gsap": "^3.11.3",
+		"pinia": "^2.0.23",
+		"primeicons": "^6.0.1",
+		"primevue": "^3.21.0",
+		"quasar": "^2.10.1",
+		"vue": "^3.2.41",
+		"vue-router": "^4.1.6"
+	},
+	"devDependencies": {
+		"@quasar/vite-plugin": "^1.2.3",
+		"@vitejs/plugin-vue": "^3.2.0",
+		"sass": "^1.32.12",
+		"vite": "^3.2.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Santiago1010/template-vue"
+	}
 }
