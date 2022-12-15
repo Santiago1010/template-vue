@@ -1,8 +1,97 @@
 # VUE TEMPLATE
 
-Este proyecto es una **plantilla** para aplicaciones desarrolladas con Vue.js. Incluye un conjunto de librerías, componentes y páginas que facilitan el desarrollo de aplicaciones con Vue.js. La plantilla utiliza librerías y módulos como [PrimeVue](https://www.primefaces.org/primevue/ "PrimeVue"), [Quasar](https://quasar.dev/ "Quasar"), [Pinia](https://pinia.vuejs.org/getting-started.html "Pinia"), [Axios](https://axios-http.com/ "Axios"), [CryptoJS](https://cryptojs.gitbook.io/docs/ "CryptoJS"), [GSAP](https://greensock.com/docs/ "GSAP"), [Vue Router](https://router.vuejs.org/ "Vue Router"), entre otros. La **plantilla** está diseñada para ser fácilmente personalizable y extensible, permitiendo a los desarrolladores ahorrar tiempo y esfuerzo al crear sus aplicaciones. Las librerías, componentes y páginas incluidas en la plantilla están probadas y optimizadas para ofrecer un rendimiento óptimo en diferentes dispositivos y navegadores. La plantilla también incluye un conjunto completo de herramientas de desarrollo y documentación para ayudar a los desarrolladores a comenzar rápidamente y de manera eficiente.
+Este proyecto es una **plantilla** para aplicaciones desarrolladas con Vue.js. Incluye un conjunto de librerías, componentes y páginas que facilitan el desarrollo de aplicaciones con Vue.js. la plantilla utiliza librerías y módulos como [PrimeVue](https://www.primefaces.org/primevue/ "PrimeVue"), [Quasar](https://quasar.dev/ "Quasar"), [Pinia](https://pinia.vuejs.org/getting-started.html "Pinia"), [Axios](https://axios-http.com/ "Axios"), [CryptoJS](https://cryptojs.gitbook.io/docs/ "CryptoJS"), [GSAP](https://greensock.com/docs/ "GSAP"), [Vue Router](https://router.vuejs.org/ "Vue Router"), entre otros. La **plantilla** está diseñada para ser fácilmente personalizable y extensible, permitiendo a los desarrolladores ahorrar tiempo y esfuerzo al crear sus aplicaciones. Las librerías, componentes y páginas incluidas en la plantilla están probadas y optimizadas para ofrecer un rendimiento óptimo en diferentes dispositivos y navegadores. La plantilla también incluye un conjunto completo de herramientas de desarrollo y documentación para ayudar a los desarrolladores a comenzar rápidamente y de manera eficiente.
 
-## Index
+## Índice
+
+## Instalación
+
+La sección de instalación de **la plantilla** proporciona una guía detallada sobre cómo configurar y poner en marcha la plataforma en su servidor. A continuación, se proporcionan los pasos necesarios para completar la instalación y comenzar a utilizar la plataforma web. Asegúrese de seguir cuidadosamente cada paso para garantizar una instalación correcta y sin problemas.
+
+Existen varias opciones para descargar el proyecto:
+
+1. __Clonar el repositorio usando HTTPS:__ en la página del repositorio, busca el botón "Clone or download" y haz clic en él. Se desplegará una ventana con un enlace de clonado. Copia el enlace y utiliza el comando `git clone` en tu terminal para clonar el repositorio en tu computadora. Por ejemplo:
+
+    ```bash
+    git clone https://github.com/Santiago1010/template-vue
+    ```
+
+2. __Clonar el repositorio usando SSH:__ para clonar el proyecto con SSH, recuerda que debes tener configurada tu clave pública y privada tanto en git, como en GitHub. En la página del repositorio, busca el botón "Clone or download" y haz clic en él. Se desplegará una ventana en la que deberás elegir la opción ***SSH***. Copia el enlace y utiliza el comando `git clone` en tu terminal para clonar el repositorio en tu computadora. Por ejemplo:
+
+	```bash
+	git clone git@github.com:Santiago1010/template-vue.git
+	```
+
+3. __Clonar el proyecto descargando el código fuente:__ si por el contrario, no deseas utilizar git, puedes buscar el botón "Clone or download" y hacer clic en él. Se desplegará una ventana en la que deberás elegir la opción "Download ZIP".
+
+Después de contar con el proyecto en tu computador, debes acceder a ella desde la terminal. Por ejemplo:
+
+```bash
+cd ~/Documentos/Proyectos/Vue/template-vue
+```
+
+### Instalación de dependencias, módulos y librerías
+
+La instalación de dependencias, módulos y librerías es un paso importante en el desarrollo de cualquier aplicación o proyecto de software. Estos componentes nos permiten aprovechar el trabajo de otros desarrolladores y ampliar las funcionalidades de nuestro código, lo que nos permite crear aplicaciones más complejas y poderosas. En esta sección, explicaremos cómo instalar estos componentes en distintos sistemas operativos y entornos de programación.
+
+Una vez clonado el proyecto y haber accedido a la carpeta del mismo, utiliza el siguiente comando en tu terminal:
+```bash
+npm install
+```
+
+Lo cuál, iniciará el proceso de instalación de todas las dependencias, módulos y librerías que requiere **la plantilla** para su correcto funcionamiento.
+
+## Uso
+
+Iniciar el servidor de desarrollo y compilar el proyecto son pasos fundamentales en el desarrollo de una aplicación o proyecto de software. Estos procesos nos permiten ejecutar y probar nuestro código en un entorno de desarrollo, lo que nos permite detectar errores y hacer cambios en tiempo real. Además, la compilación del proyecto nos permite convertir nuestro código fuente en una versión ejecutable que puede ser utilizada por otros usuarios. En esta sección, se explica cómo iniciar el servidor de desarrollo y compilar el proyecto en distintos entornos de programación.
+
+### Iniciar el servidor
+
+Una vez instalado el código fuente y las dependencias, módulos y librerías correspondientes, puedes abrir la interfaz gráfica con el siguiente comando:
+
+```bash
+npm run dev
+```
+
+Una vez el servidor haya iniciado, se te mostrará un link que te permitirá acceder a la interfaz gráfica.
+
+### Construir la versión de producción
+
+Para generar la versión que será alojada en el servidor de producción (o pre-producción), es necesario utilizar el siguiente comando:
+
+```bash
+ npm run build
+```
+
+Esto generará una carpeta llamada ***dist***, en la cuál se contrarán los archivos que deben ser alojados en el servidor.
+
+## Funciones relevantes
+
+**La plantilla** utiliza ciertas funciones "externas" para su correcto funcionamiento, por lo que en esta sección, se procederá a explicar cómo funcionan cada una de estas.
+
+- __AES.js:__ Esta función, se encarga de generar una encriptación desde el lado del cliente y que posteriormente será utilizada para enviar información encriptada.
+- __Security.js:__ Esta función se encarga de gestionar la seguridad desde el lado del cliente; recibiendo y enviando información encriptada con SHA256 y parseando el JWT recibido desde el servidor.
+
+> Estas 2 funciones se pueden encontrar en la ruta: `@/src/assets/functions/`
+
+- __axios.js:__ Este archivo genera una constante que contiene la ruta base para consumir la API de la aplicación.
+- __router.js:__  En este archivo se almacenan las configuraciones de las rutas manejjadas en la aplicación.
+
+> Estas 2 funciones se pueden encontrar en la ruta: `@/src/assets/plugins/`
+
+- __rulesStore.js:__ Función que almacena y gestiona el estado de las reglas en toda la aplicación.
+
+> Estas función se puede encontrar en la ruta: `@/src/assets/store/`
+
+## Librerías
+Las librerías son componentes de código que nos permiten aprovechar el trabajo de otros desarrolladores y ampliar las funcionalidades de nuestro proyecto de software. En esta sección, enumeraremos y explicaremos las librerías utilizadas en nuestro proyecto, detallando para qué se utilizan y cómo se integran en nuestro código. Esto nos permitirá conocer mejor las herramientas que estamos utilizando y cómo aprovechar al máximo su potencial.
+
+- __[Quasar](https://quasar.dev/ "Quasar"):__ Es un framework de UI y UX basado en VueJS. En este proyecto, es utilizado como la principal fuente de componentes y estilos.
+- __[Axios](https://axios-http.com/ "Axios"):__ Axios es una librería de JavaScript que se utiliza para realizar solicitudes HTTP de manera sencilla y eficiente. En la aplicación es la principal forma de consumir la API de la aplicación.
+- __[CryptoJS](https://cryptojs.gitbook.io/docs/ "CryptoJS"):__ Es una librería que permite hacer encriptaciones y codificaciones desde JavaScript. Para este proyecto, es utilizado para encriptar la contraseña, descifrar wl JWT y demás.
+- __[GSAP](https://greensock.com/gsap/ "GSAP"):__ Es una biblioteca de animación JavaScript que se utiliza para crear animaciones en sitios web y aplicaciones móviles. En el proyecto, es utilizado para realizar ciertas animaciones menores en la menor cantidad de tiempo de ejecución posible.
+- __[Pinia](https://pinia.vuejs.org/ "Pinia"):__ Es una librería avanzada de manejo de estado adaptada especialmente para Vue. En este proyecto, es utilizado para la gestión de estado.
+- __[PrimeVue](https://www.primefaces.org/primevue/ "PrimeVue"):__ PrimeVue es un componente de interfaz de usuario basado en Vue.js que se utiliza para crear aplicaciones web modernas y atractivas. En el proyecto es utilizado como fuente de componentes adicional.
 
 ## Carpetas y archivo que se descargan por defecto
 
@@ -95,10 +184,19 @@ El archivo ***.deleteThis*** es un archivo de muestra que se utiliza para mostra
 ### Carpeta Source (/src/)
 La carpeta **src** es una carpeta común en proyectos de **Vue** que utilizan [vite.js](https://vitejs.dev/guide/env-and-mode.html "vite.js"). Esta carpeta suele contener todos los archivos fuente de la aplicación, incluyendo archivos de componentes, archivos de estilo, archivos de páginas, archivos de configuración, y otros archivos relacionados con la aplicación. La carpeta src se utiliza para organizar y mantener los archivos fuente de la aplicación, y es donde se desarrolla y se realizan cambios en la aplicación.
 
+> Las carpetas que se encuentran dentro de /src/ ([assets](https://github.com/Santiago1010/template-vue/blob/main/src/assets/ASSETS.md "assets"), [components](https://github.com/Santiago1010/template-vue/blob/main/src/components/COMPONENTS.md "components"), [layouts](https://github.com/Santiago1010/template-vue/blob/main/src/layouts/LAYOUTS.md "layouts"), [pages](https://github.com/Santiago1010/template-vue/blob/main/src/pages/PAGES.md "pages")), cuentan con su respectivo archivo de información, al que podrás acceder haciendo click en cada uno de los nombres de la carpeta.
+
 #### Archivo App.vue
 El archivo **App.vue** se utiliza para definir la estructura y el comportamiento básico de la interfaz de usuario de la aplicación y es el componente que se renderiza cuando se carga la aplicación.
 
 ### Archivo main.js
 El archivo **main.js** es un archivo de configuración principal en un proyecto de **Vue**. Este archivo contiene código que se ejecuta al inicio de la aplicación y es donde se inicializa la instancia principal de **Vue**. También se pueden importar y configurar otros módulos y plugins en este archivo. El archivo **main.js** es el punto de entrada de la aplicación y se utiliza para configurar y ejecutar la aplicación de **Vue**.
 
-> Las carpetas que se encuentran dentro de /src/ ([assets](https://github.com/Santiago1010/template-vue/blob/main/src/assets/ASSETS.md "assets"), [components](https://github.com/Santiago1010/template-vue/blob/main/src/components/COMPONENTS.md "components"), [layouts](https://github.com/Santiago1010/template-vue/blob/main/src/layouts/LAYOUTS.md "layouts"), [pages](https://github.com/Santiago1010/template-vue/blob/main/src/pages/PAGES.md "pages")), cuentan con su respectivo archivo de información, al que podrás acceder haciendo click en cada uno de los nombres de la carpeta.
+## Reglas generales de desarrollo
+
+1. Los archivos .vue deben nombrarse siguiendo la convención **PascalCase**, es decir, que cada palabra en el nombre del archivo comience con una letra mayúscula. Por ejemplo: **"App.vue"** o **"LoginForm.vue"**.
+2. Los archivos deben organizarse en carpetas y subcarpetas de manera lógica y coherente. Por ejemplo, se podría tener una carpeta "components" que contenga los componentes reutilizables de la aplicación, y una carpeta "pages" que contenga los componentes de página de la aplicación; o los archicos .png vayan la sub carpeta correspndiente dentro de `@src/assets/images`.
+3. Las variables y funciones en los archivos .vue, y .js deben nombrarse siguiendo la convención camelCase, es decir, que las palabras en el nombre de la variable o función comiencen con una letra minúscula, excepto la primera palabra. Por ejemplo: **"firstName"** o **"calculateTotal"**.
+4. Los archivos .vue deben estructurarse siguiendo la arquitectura recomendada por Vue.js, con una etiqueta `<template>` para definir la estructura de la interfaz de usuario, una etiqueta `<script setup>` para definir la lógica de la aplicación y una etiqueta `<style scoped>` para definir los estilos CSS sin afectar a los demás.
+5. Es importante utilizar las herramientas de desarrollo de Vite.js para depurar y optimizar la aplicación, y para asegurarse de que el código cumpla con los estándares de calidad y rendimiento.
+6. Es recomendable utilizar componentes y librerías de terceros, como PrimeVue, Quasar y Pinia, siempre que sea necesario y que se ajusten a las necesidades y requerimientos del proyecto.
