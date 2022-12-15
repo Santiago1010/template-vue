@@ -85,16 +85,16 @@ Esto generará una carpeta llamada ***dist***, en la cuál se contrarán los arc
 - __AES.js:__ Esta función, se encarga de generar una encriptación desde el lado del cliente y que posteriormente será utilizada para enviar información encriptada.
 - __Security.js:__ Esta función se encarga de gestionar la seguridad desde el lado del cliente; recibiendo y enviando información encriptada con SHA256 y parseando el JWT recibido desde el servidor.
 
-> Estas 2 funciones se pueden encontrar en la ruta: `@/src/assets/functions/`
+> Estas 2 funciones se pueden encontrar en la ruta: `@src/assets/functions/`
 
 - __axios.js:__ Este archivo genera una constante que contiene la ruta base para consumir la API de la aplicación.
 - __router.js:__  En este archivo se almacenan las configuraciones de las rutas manejjadas en la aplicación.
 
-> Estas 2 funciones se pueden encontrar en la ruta: `@/src/assets/plugins/`
+> Estas 2 funciones se pueden encontrar en la ruta: `@src/assets/plugins/`
 
 - __rulesStore.js:__ Función que almacena y gestiona el estado de las reglas en toda la aplicación.
 
-> Estas función se puede encontrar en la ruta: `@/src/assets/store/`
+> Estas función se puede encontrar en la ruta: `@src/assets/store/`
 
 ## Librerías
 Las librerías son componentes de código que nos permiten aprovechar el trabajo de otros desarrolladores y ampliar las funcionalidades de nuestro proyecto de software. En esta sección, enumeraremos y explicaremos las librerías utilizadas en nuestro proyecto, detallando para qué se utilizan y cómo se integran en nuestro código. Esto nos permitirá conocer mejor las herramientas que estamos utilizando y cómo aprovechar al máximo su potencial.
