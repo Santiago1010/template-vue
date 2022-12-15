@@ -4,6 +4,19 @@ Este proyecto es una **plantilla** para aplicaciones desarrolladas con Vue.js. I
 
 ## Índice
 
+| Sección | Descripción |
+| :---             | ---          |
+| Instalación | El manual proporciona instrucciones detalladas sobre cómo configurar y poner en marcha la plataforma en un servidor. Se ofrecen varias opciones para descargar el proyecto, incluyendo clonar el repositorio usando HTTPS o SSH, o descargar el código fuente como un archivo ZIP. Una vez que se cuenta con el proyecto en la computadora, se indica el comando para instalar las dependencias, módulos y librerías necesarios. |
+| Uso | Una vez que se han completado los pasos de instalación, se proporcionan instrucciones para iniciar el servidor de desarrollo y compilar el proyecto. También se describe cómo ejecutar pruebas unitarias en el código para garantizar su correcto funcionamiento. |
+| Funciones relevantes | Se describe el uso de funciones "externas" en el proyecto. |
+| Librerías | Se enumeran y explican las librerías utilizadas en el proyecto, detallando su uso y cómo se integran en el código. |
+| Carpetas y archivo que se descargan por defecto | Se proporciona una imagen del árbol de archivos y carpetas descargados por defecto. |
+| Archivos de configuración | Se explica el uso de archivos de configuración para establecer opciones de configuración en la aplicación. |
+| Archivo LICENSE: MIT | Se explica el propósito del archivo LICENSE en repositorios de Git y detalla un poco más acerca de la licencia que **sólo abarca la plantilla**. |
+| Archivo .deleteThis | Se describe el uso del archivo .deleteThis como archivo de muestra en repositorios de Git. |
+| Carpeta Source (/src/) | Se explica el propósito de la carpeta src en proyectos de Vue que utilizan vite.js. |
+| Reglas generales de desarrollo | Se proporciona información sobre las reglas generales de desarrollo para el proyecto. |
+
 ## Instalación
 
 La sección de instalación de **la plantilla** proporciona una guía detallada sobre cómo configurar y poner en marcha la plataforma en su servidor. A continuación, se proporcionan los pasos necesarios para completar la instalación y comenzar a utilizar la plataforma web. Asegúrese de seguir cuidadosamente cada paso para garantizar una instalación correcta y sin problemas.
