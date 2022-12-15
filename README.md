@@ -5,17 +5,17 @@ Este proyecto es una **plantilla** para aplicaciones desarrolladas con Vue.js. I
 ## Índice
 
 | Sección | Descripción |
-| :---             | ---          |
-| Instalación | El manual proporciona instrucciones detalladas sobre cómo configurar y poner en marcha la plataforma en un servidor. Se ofrecen varias opciones para descargar el proyecto, incluyendo clonar el repositorio usando HTTPS o SSH, o descargar el código fuente como un archivo ZIP. Una vez que se cuenta con el proyecto en la computadora, se indica el comando para instalar las dependencias, módulos y librerías necesarios. |
-| Uso | Una vez que se han completado los pasos de instalación, se proporcionan instrucciones para iniciar el servidor de desarrollo y compilar el proyecto. También se describe cómo ejecutar pruebas unitarias en el código para garantizar su correcto funcionamiento. |
-| Funciones relevantes | Se describe el uso de funciones "externas" en el proyecto. |
-| Librerías | Se enumeran y explican las librerías utilizadas en el proyecto, detallando su uso y cómo se integran en el código. |
-| Carpetas y archivo que se descargan por defecto | Se proporciona una imagen del árbol de archivos y carpetas descargados por defecto. |
-| Archivos de configuración | Se explica el uso de archivos de configuración para establecer opciones de configuración en la aplicación. |
-| Archivo LICENSE: MIT | Se explica el propósito del archivo LICENSE en repositorios de Git y detalla un poco más acerca de la licencia que **sólo abarca la plantilla**. |
-| Archivo .deleteThis | Se describe el uso del archivo .deleteThis como archivo de muestra en repositorios de Git. |
-| Carpeta Source (/src/) | Se explica el propósito de la carpeta src en proyectos de Vue que utilizan vite.js. |
-| Reglas generales de desarrollo | Se proporciona información sobre las reglas generales de desarrollo para el proyecto. |
+| :------------: | ---          |
+| [Instalación][1] | El manual proporciona instrucciones detalladas sobre cómo configurar y poner en marcha la plataforma en un servidor. Se ofrecen varias opciones para descargar el proyecto, incluyendo clonar el repositorio usando HTTPS o SSH, o descargar el código fuente como un archivo ZIP. Una vez que se cuenta con el proyecto en la computadora, se indica el comando para instalar las dependencias, módulos y librerías necesarios. |
+| [Uso][2] | Una vez que se han completado los pasos de instalación, se proporcionan instrucciones para iniciar el servidor de desarrollo y compilar el proyecto. También se describe cómo ejecutar pruebas unitarias en el código para garantizar su correcto funcionamiento. |
+| [Funciones relevantes][3] | Se describe el uso de funciones "externas" en el proyecto. |
+| [Librerías][4] | Se enumeran y explican las librerías utilizadas en el proyecto, detallando su uso y cómo se integran en el código. |
+| [Carpetas y archivo que se descargan por defecto][5] | Se proporciona una imagen del árbol de archivos y carpetas descargados por defecto. |
+| [Archivos de configuración][6] | Se explica el uso de archivos de configuración para establecer opciones de configuración en la aplicación. |
+| [Archivo LICENSE: MIT][7] | Se explica el propósito del archivo LICENSE en repositorios de Git y detalla un poco más acerca de la licencia que **sólo abarca la plantilla**. |
+| [Archivo .deleteThis][8] | Se describe el uso del archivo .deleteThis como archivo de muestra en repositorios de Git. |
+| [Carpetas][9] | Se explica el propósito de la carpetas predeterminadas del proyecto. |
+| [Reglas generales de desarrollo][10] | Se proporciona información sobre las reglas generales de desarrollo para el proyecto. |
 
 ## Instalación
 
@@ -213,3 +213,15 @@ El archivo **main.js** es un archivo de configuración principal en un proyecto 
 4. Los archivos .vue deben estructurarse siguiendo la arquitectura recomendada por Vue.js, con una etiqueta `<template>` para definir la estructura de la interfaz de usuario, una etiqueta `<script setup>` para definir la lógica de la aplicación y una etiqueta `<style scoped>` para definir los estilos CSS sin afectar a los demás.
 5. Es importante utilizar las herramientas de desarrollo de Vite.js para depurar y optimizar la aplicación, y para asegurarse de que el código cumpla con los estándares de calidad y rendimiento.
 6. Es recomendable utilizar componentes y librerías de terceros, como PrimeVue, Quasar y Pinia, siempre que sea necesario y que se ajusten a las necesidades y requerimientos del proyecto.
+7. Todos los nombres de archivos y carpetas, nombres de variables y funciones y cualquier otro elemento relacionado con la programación deben escribirse en inglés.
+
+[1]: https://github.com/Santiago1010/template-vue#instalaci%C3%B3n "Instalación"
+[2]: https://github.com/Santiago1010/template-vue#uso "Uso"
+[3]: https://github.com/Santiago1010/template-vue#funciones-relevantes "Funciones relevantes"
+[4]: https://github.com/Santiago1010/template-vue#librer%C3%ADas "Librerías"
+[5]: https://github.com/Santiago1010/template-vue#carpetas-y-archivo-que-se-descargan-por-defecto "Carpetas y archivo que se descargan por defecto"
+[6]: https://github.com/Santiago1010/template-vue#archivos-de-configuraci%C3%B3n "Archivos de configuración"
+[7]: https://github.com/Santiago1010/template-vue#archivo-license-mit "Archivo LICENSE: MIT"
+[8]: https://github.com/Santiago1010/template-vue#archivo-deletethis "Archivo .deleteThis"
+[9]: https://github.com/Santiago1010/template-vue#carpetas "Carpetas"
+[10]: https://github.com/Santiago1010/template-vue#reglas-generales-de-desarrollo "Reglas generales de desarrollo"
