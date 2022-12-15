@@ -26,9 +26,9 @@ En el ***.editorconfig*** de este proyecto, se deben seguir las siguientes regla
 
 1. La opción `end_of_line` se establece en **"lf"**, lo que significa que el carácter de fin de línea deberá ser un salto de línea (LF) y no un retorno de carro (CR) o un retorno de carro y salto de línea (CRLF).
 2. La opción `insert_final_newline` se establece en **"false"**, lo que significa que los archivos no deben contener una línea en blanco al final del contenido.
-3. La opción **"indent_style"** se establece en **"tab"**, lo que significa que la indentación en el código deberá ser realizada mediante la utilización de caracteres de tabulación en lugar de espacios.
-4. La opción **"indent_size"** se establece en **"4"**, lo que significa que cada nivel de indentación deberá estar compuesto por 4 caracteres de tabulación.
-5. La opción **"charset"** se establece en **"utf-8"** para los archivos con las extensiones .js, .py, .vue y .php, lo que significa que estos archivos deben estar codificados en UTF-8.
+3. La opción `indent_style` se establece en **"tab"**, lo que significa que la indentación en el código deberá ser realizada mediante la utilización de caracteres de tabulación en lugar de espacios.
+4. La opción `indent_size` se establece en **"4"**, lo que significa que cada nivel de indentación deberá estar compuesto por 4 caracteres de tabulación.
+5. La opción `charset` se establece en **"utf-8"** para los archivos con las extensiones .js, .py, .vue y .php, lo que significa que estos archivos deben estar codificados en UTF-8.
 
 ### .gitignore
 
@@ -36,15 +36,15 @@ Un archivo .gitignore es un archivo que se utiliza en repositorios de Git para i
 
 El archivo .gitignore del proyecto contiene una serie de reglas que indican qué archivos o carpetas deben ser ignorados por Git. Estas reglas están divididas en diferentes secciones, cada una de las cuales se refiere a un tipo de archivo o carpeta en particular. Aquí te explicaré brevemente algunas de las reglas que se incluyen en el archivo:
 
-- En la sección "Android", se encuentran reglas para ignorar archivos generados por Android Studio, como los archivos de configuración local.properties o los archivos de proyecto IntelliJ (.iml). También se ignoran los archivos de log y los archivos de almacén de claves (.jks, .keystore).
-- En la sección "dotenv", se indica que se deben ignorar los archivos .env, que a menudo se utilizan para almacenar variables de entorno.
-- En la sección "Images", se encuentran reglas para ignorar diferentes tipos de archivos de imagen, como JPEG, PNG o GIF.
-- En la sección "Linux", se incluyen reglas para ignorar archivos temporales que pueden generarse en sistemas Linux, así como archivos de configuración de KDE.
-- En la sección "macOS", se ignoran archivos generados por macOS, como el archivo .DS_Store o el archivo Icon. También se ignoran carpetas como "Trash" o "Temporary Items".
-- En la sección "MicrosoftOffice", se ignoran archivos temporales generados por aplicaciones como Word o Excel.
-- En la sección "Video", se ignoran diferentes tipos de archivos de vídeo, como AVI, MP4 o WMV.
-- En las secciones "Vue" y "Vuejs", se ignoran archivos y carpetas generados por aplicaciones Vue.js, como node_modules o dist/.
-- En la sección "Windows", se ignoran archivos generados por Windows, como Thumbs.db o el archivo Icon.
+- En la sección ***"Android"***, se encuentran reglas para ignorar archivos generados por Android Studio, como los archivos de configuración local.properties o los archivos de proyecto IntelliJ (.iml). También se ignoran los archivos de log y los archivos de almacén de claves (.jks, .keystore).
+- En la sección ***"dotenv"***, se indica que se deben ignorar los archivos .env, que a menudo se utilizan para almacenar variables de entorno.
+- En la sección ***"Images"***, se encuentran reglas para ignorar diferentes tipos de archivos de imagen, como JPEG, PNG o GIF.
+- En la sección ***"Linux"***, se incluyen reglas para ignorar archivos temporales que pueden generarse en sistemas Linux, así como archivos de configuración de KDE.
+- En la sección ***"macOS"***, se ignoran archivos generados por macOS, como el archivo .DS_Store o el archivo Icon. También se ignoran carpetas como ***"Trash"*** o ***"Temporary Items"***.
+- En la sección ***"MicrosoftOffice"***, se ignoran archivos temporales generados por aplicaciones como Word o Excel.
+- En la sección ***"Video"***, se ignoran diferentes tipos de archivos de vídeo, como AVI, MP4 o WMV.
+- En las secciones ***"Vue"*** y ***"Vuejs"***, se ignoran archivos y carpetas generados por aplicaciones Vue.js, como node_modules o dist/.
+- En la sección ***"Windows"***, se ignoran archivos generados por Windows, como Thumbs.db o el archivo Icon.
 
 ### index.html
 El archivo `index.html` es el punto de partida para cualquier aplicación de Vue, ya que define la estructura básica de la aplicación y permite cargar los diferentes componentes y librerías que se utilizan en la aplicación.
@@ -85,3 +85,20 @@ La **licencia MIT** es una licencia pública que permite a cualquier persona uti
 La **licencia MIT** es una licencia muy permissiva que permite a cualquier persona utilizar el software de manera libre, siempre y cuando se respeten los términos y condiciones de la licencia.
 
 En resumen, la **licencia MIT** es una licencia pública que permite a cualquier persona utilizar, modificar y distribuir el software cubierto por esta licencia, siempre y cuando se respeten los términos y condiciones de la licencia. **Sin embargo, esta licencia solo cubre el software original, y no cubre las obras derivadas que puedan resultar del uso, modificación o distribución del software.**
+
+## Archivo .deleteThis
+
+El archivo ***.deleteThis*** es un archivo de muestra que se utiliza para mostrar cómo se cargan las carpetas en GitHub. Este archivo no tiene relevancia en el funcionamiento del proyecto y se puede eliminar con tranquilidad.
+
+## Carpetas
+
+### Carpeta Source (/src/)
+La carpeta **src** es una carpeta común en proyectos de **Vue** que utilizan [vite.js](https://vitejs.dev/guide/env-and-mode.html "vite.js"). Esta carpeta suele contener todos los archivos fuente de la aplicación, incluyendo archivos de componentes, archivos de estilo, archivos de páginas, archivos de configuración, y otros archivos relacionados con la aplicación. La carpeta src se utiliza para organizar y mantener los archivos fuente de la aplicación, y es donde se desarrolla y se realizan cambios en la aplicación.
+
+#### Archivo App.vue
+El archivo **App.vue** se utiliza para definir la estructura y el comportamiento básico de la interfaz de usuario de la aplicación y es el componente que se renderiza cuando se carga la aplicación.
+
+### Archivo main.js
+El archivo **main.js** es un archivo de configuración principal en un proyecto de **Vue**. Este archivo contiene código que se ejecuta al inicio de la aplicación y es donde se inicializa la instancia principal de **Vue**. También se pueden importar y configurar otros módulos y plugins en este archivo. El archivo **main.js** es el punto de entrada de la aplicación y se utiliza para configurar y ejecutar la aplicación de **Vue**.
+
+> Las carpetas que se encuentran dentro de /src/ ([assets](https://github.com/Santiago1010/template-vue/blob/main/src/assets/ASSETS.md "assets"), [components](https://github.com/Santiago1010/template-vue/blob/main/src/components/COMPONENTS.md "components"), [layouts](https://github.com/Santiago1010/template-vue/blob/main/src/layouts/LAYOUTS.md "layouts"), [pages](https://github.com/Santiago1010/template-vue/blob/main/src/pages/PAGES.md "pages")), cuentan con su respectivo archivo de información, al que podrás acceder haciendo click en cada uno de los nombres de la carpeta.
