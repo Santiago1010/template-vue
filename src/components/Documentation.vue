@@ -51,7 +51,9 @@
 
 		<h2 class="code-line">Carpetas y archivo que se descargan por defecto</h2>
 
-		<a href="https://i.imgur.com/Rzlnhz8.png" title="Árbol de archivos y carpetas" target="_BLANK"><img src="https://i.imgur.com/Rzlnhz8.png" alt="Árbol de archivos y carpetas" title="Árbol de archivos y carpetas"></a>
+		<a href="https://i.imgur.com/Rzlnhz8.png" title="Árbol de archivos y carpetas" target="_BLANK">
+			<q-img src="https://i.imgur.com/Rzlnhz8.png" alt="Árbol de archivos y carpetas" title="Árbol de archivos y carpetas" />
+		</a>
 
 		<h2 class="code-line">Archivos de configuración</h2>
 
