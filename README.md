@@ -85,16 +85,16 @@ Esto generará una carpeta llamada ***dist***, en la cuál se contrarán los arc
 - __AES.js:__ Esta función, se encarga de generar una encriptación desde el lado del cliente y que posteriormente será utilizada para enviar información encriptada.
 - __Security.js:__ Esta función se encarga de gestionar la seguridad desde el lado del cliente; recibiendo y enviando información encriptada con SHA256 y parseando el JWT recibido desde el servidor.
 
-> Estas 2 funciones se pueden encontrar en la ruta: `@src/assets/functions/`
+> Estas 2 funciones se pueden encontrar en la ruta: [`@src/assets/scripts/functions/`](https://github.com/Santiago1010/template-vue/tree/main/src/assets/scripts/functions "`@src/assets/functions/`")
 
 - __axios.js:__ Este archivo genera una constante que contiene la ruta base para consumir la API de la aplicación.
 - __router.js:__  En este archivo se almacenan las configuraciones de las rutas manejjadas en la aplicación.
 
-> Estas 2 funciones se pueden encontrar en la ruta: `@src/assets/plugins/`
+> Estas 2 funciones se pueden encontrar en la ruta: [`@src/assets/scripts/plugins/`](https://github.com/Santiago1010/template-vue/tree/main/src/assets/scripts/plugins "`@src/assets/scripts/plugins/`")
 
 - __rulesStore.js:__ Función que almacena y gestiona el estado de las reglas en toda la aplicación.
 
-> Estas función se puede encontrar en la ruta: `@src/assets/store/`
+> Estas función se puede encontrar en la ruta: [`@src/assets/scripts/store/`](https://github.com/Santiago1010/template-vue/tree/main/src/assets/scripts/stores "`@src/assets/store/`")
 
 ## Librerías
 Las librerías son componentes de código que nos permiten aprovechar el trabajo de otros desarrolladores y ampliar las funcionalidades de nuestro proyecto de software. En esta sección, enumeraremos y explicaremos las librerías utilizadas en nuestro proyecto, detallando para qué se utilizan y cómo se integran en nuestro código. Esto nos permitirá conocer mejor las herramientas que estamos utilizando y cómo aprovechar al máximo su potencial.
@@ -114,7 +114,7 @@ Las librerías son componentes de código que nos permiten aprovechar el trabajo
 Los **archivos de configuración** son archivos especiales que contienen la información necesaria para configurar una aplicación o sistema. En un entorno de plataforma web cliente, los archivos de configuración pueden contener información como la ruta del servidor backend, la configuración de autenticación y autorización, o la configuración de opciones de desarrollo. Esta información se utiliza por la aplicación web cliente para interactuar con el servidor backend y proporcionar la funcionalidad deseada. Los archivos de configuración también se pueden utilizar para establecer opciones de configuración de la aplicación, como el idioma predeterminado o la apariencia de la interfaz de usuario.
 
 ### .env.example
-Un archivo ***.env.example*** es un archivo de muestra que se utiliza para proporcionar una plantilla para un archivo de configuración llamado ***.env***. Este archivo contiene un conjunto de **variables de entorno y sus valores predeterminados**, que pueden ser utilizados por una aplicación para configurarse y funcionar correctamente. El archivo ***.env.example*** se utiliza como plantilla para crear un archivo ***.env*** real que contenga los valores de configuración específicos para un entorno de desarrollo o producción. Una vez que se ha creado el archivo ***.env***, reemplaza al archivo ***.env.example*** y se utiliza en su lugar.
+Un archivo ***[.env.example](https://github.com/Santiago1010/template-vue/blob/main/.env.example ".env.example")*** es un archivo de muestra que se utiliza para proporcionar una plantilla para un archivo de configuración llamado ***.env***. Este archivo contiene un conjunto de **variables de entorno y sus valores predeterminados**, que pueden ser utilizados por una aplicación para configurarse y funcionar correctamente. El archivo ***[.env.example](https://github.com/Santiago1010/template-vue/blob/main/.env.example ".env.example")*** se utiliza como plantilla para crear un archivo ***.env*** real que contenga los valores de configuración específicos para un entorno de desarrollo o producción. Una vez que se ha creado el archivo ***.env***, reemplaza al archivo ***[.env.example](https://github.com/Santiago1010/template-vue/blob/main/.env.example ".env.example")*** y se utiliza en su lugar.
 
 Un archivo ***.env*** es un archivo de configuración que contiene un conjunto de variables de entorno y sus valores. Este archivo se utiliza para configurar una aplicación y permitir que funcione correctamente en un entorno de desarrollo o producción específico. Los valores de configuración contenidos en el archivo .env se cargan en la aplicación cuando se inicia, y se utilizan para configurar opciones como la ruta del servidor backend, la configuración de autenticación y autorización, y la configuración de opciones de desarrollo. El archivo ***.env*** también se puede utilizar para establecer opciones de configuración de la aplicación, como el idioma predeterminado o la apariencia de la interfaz de usuario.
 
@@ -122,9 +122,9 @@ Un archivo ***.env*** es un archivo de configuración que contiene un conjunto d
 
 ### .editorconfig
 
-Un archivo ***.editorconfig*** es un archivo de configuración que se utiliza para establecer y mantener un conjunto uniforme de reglas de formateo y estilo para los archivos de un proyecto de desarrollo de software. Estas reglas pueden incluir cosas como la longitud máxima de línea, la indentación, el uso de espacios o tabs, o el estilo de comentario. El archivo ***.editorconfig*** se utiliza para asegurarse de que todos los desarrolladores que trabajan en un proyecto utilicen el mismo conjunto de reglas de formateo y estilo, lo que facilita la lectura y el mantenimiento del código fuente. Muchos editores de código y herramientas de desarrollo tienen soporte para ***.editorconfig*** y pueden leer y utilizar las reglas contenidas en el archivo para formatear y estilizar automáticamente el código.
+Un archivo ***[.editorconfig](https://github.com/Santiago1010/template-vue/blob/main/.editorconfig ".editorconfig")*** es un archivo de configuración que se utiliza para establecer y mantener un conjunto uniforme de reglas de formateo y estilo para los archivos de un proyecto de desarrollo de software. Estas reglas pueden incluir cosas como la longitud máxima de línea, la indentación, el uso de espacios o tabs, o el estilo de comentario. El archivo ***[.editorconfig](https://github.com/Santiago1010/template-vue/blob/main/.editorconfig ".editorconfig")*** se utiliza para asegurarse de que todos los desarrolladores que trabajan en un proyecto utilicen el mismo conjunto de reglas de formateo y estilo, lo que facilita la lectura y el mantenimiento del código fuente. Muchos editores de código y herramientas de desarrollo tienen soporte para ***[.editorconfig](https://github.com/Santiago1010/template-vue/blob/main/.editorconfig ".editorconfig")*** y pueden leer y utilizar las reglas contenidas en el archivo para formatear y estilizar automáticamente el código.
 
-En el ***.editorconfig*** de este proyecto, se deben seguir las siguientes reglas:
+En el ***[.editorconfig](https://github.com/Santiago1010/template-vue/blob/main/.editorconfig ".editorconfig")*** de este proyecto, se deben seguir las siguientes reglas:
 
 1. La opción `end_of_line` se establece en **"lf"**, lo que significa que el carácter de fin de línea deberá ser un salto de línea (LF) y no un retorno de carro (CR) o un retorno de carro y salto de línea (CRLF).
 2. La opción `insert_final_newline` se establece en **"false"**, lo que significa que los archivos no deben contener una línea en blanco al final del contenido.
@@ -134,9 +134,9 @@ En el ***.editorconfig*** de este proyecto, se deben seguir las siguientes regla
 
 ### .gitignore
 
-Un archivo .gitignore es un archivo que se utiliza en repositorios de Git para indicar qué archivos o carpetas no deben incluirse en el control de versiones. Esto puede ser útil, por ejemplo, si hay archivos que no quieres que se guarden en tu repositorio, como archivos de configuración que contienen información confidencial o archivos que se generan automáticamente y que no necesitan ser controlados por Git.
+Un archivo [***.gitignore***](https://github.com/Santiago1010/template-vue/blob/main/.gitignore "***.gitignore***") es un archivo que se utiliza en repositorios de Git para indicar qué archivos o carpetas no deben incluirse en el control de versiones. Esto puede ser útil, por ejemplo, si hay archivos que no quieres que se guarden en tu repositorio, como archivos de configuración que contienen información confidencial o archivos que se generan automáticamente y que no necesitan ser controlados por Git.
 
-El archivo .gitignore del proyecto contiene una serie de reglas que indican qué archivos o carpetas deben ser ignorados por Git. Estas reglas están divididas en diferentes secciones, cada una de las cuales se refiere a un tipo de archivo o carpeta en particular. Aquí te explicaré brevemente algunas de las reglas que se incluyen en el archivo:
+El archivo [***.gitignore***](https://github.com/Santiago1010/template-vue/blob/main/.gitignore "***.gitignore***") del proyecto contiene una serie de reglas que indican qué archivos o carpetas deben ser ignorados por Git. Estas reglas están divididas en diferentes secciones, cada una de las cuales se refiere a un tipo de archivo o carpeta en particular. Aquí te explicaré brevemente algunas de las reglas que se incluyen en el archivo:
 
 - En la sección ***"Android"***, se encuentran reglas para ignorar archivos generados por Android Studio, como los archivos de configuración local.properties o los archivos de proyecto IntelliJ (.iml). También se ignoran los archivos de log y los archivos de almacén de claves (.jks, .keystore).
 - En la sección ***"dotenv"***, se indica que se deben ignorar los archivos .env, que a menudo se utilizan para almacenar variables de entorno.
@@ -149,33 +149,33 @@ El archivo .gitignore del proyecto contiene una serie de reglas que indican qué
 - En la sección ***"Windows"***, se ignoran archivos generados por Windows, como Thumbs.db o el archivo Icon.
 
 ### index.html
-El archivo `index.html` es el punto de partida para cualquier aplicación de Vue, ya que define la estructura básica de la aplicación y permite cargar los diferentes componentes y librerías que se utilizan en la aplicación.
+El archivo [index.html](https://github.com/Santiago1010/template-vue/blob/main/index.html "index.html") es el punto de partida para cualquier aplicación de Vue, ya que define la estructura básica de la aplicación y permite cargar los diferentes componentes y librerías que se utilizan en la aplicación.
 
 ### package-lock.json
 
-El archivo **package-lock.json** es un archivo que se genera automáticamente en proyectos de Node.js que utilizan el administrador de paquetes *npm*. Este archivo contiene un registro de todas las dependencias de un proyecto, así como sus versiones exactas.
+El archivo [***package-lock.json***](https://github.com/Santiago1010/template-vue/blob/main/package-lock.json "***package-lock.json***") es un archivo que se genera automáticamente en proyectos de Node.js que utilizan el administrador de paquetes *npm*. Este archivo contiene un registro de todas las dependencias de un proyecto, así como sus versiones exactas.
 
-La principal ventaja de utilizar el archivo **package-lock.json** es que permite asegurarse de que todos los desarrolladores que trabajen en un proyecto estén utilizando la misma versión de las dependencias. Además, el archivo **package-lock.json** también hace que sea más fácil reproducir entornos de desarrollo, ya que permite instalar las dependencias de un proyecto de manera exacta y determinista.
+La principal ventaja de utilizar el archivo [***package-lock.json***](https://github.com/Santiago1010/template-vue/blob/main/package-lock.json "***package-lock.json***") es que permite asegurarse de que todos los desarrolladores que trabajen en un proyecto estén utilizando la misma versión de las dependencias. Además, el archivo [***package-lock.json***](https://github.com/Santiago1010/template-vue/blob/main/package-lock.json "***package-lock.json***") también hace que sea más fácil reproducir entornos de desarrollo, ya que permite instalar las dependencias de un proyecto de manera exacta y determinista.
 
-En resumen, el archivo **package-lock.json** es un archivo que se utiliza en proyectos de *Node.js* para registrar y mantener un historial de las dependencias y sus versiones exactas. Esto permite asegurarse de que todos los desarrolladores que trabajen en un proyecto estén utilizando la misma versión de las dependencias, lo que facilita la reproducción de entornos de desarrollo.
+En resumen, el archivo [***package-lock.json***](https://github.com/Santiago1010/template-vue/blob/main/package-lock.json "***package-lock.json***") es un archivo que se utiliza en proyectos de *Node.js* para registrar y mantener un historial de las dependencias y sus versiones exactas. Esto permite asegurarse de que todos los desarrolladores que trabajen en un proyecto estén utilizando la misma versión de las dependencias, lo que facilita la reproducción de entornos de desarrollo.
 
 ### package.json
-El archivo **package.json** es un archivo que se utiliza en proyectos de *Node.js* para registrar información sobre el proyecto, así como también las dependencias que utiliza. Este archivo suele incluir información como el nombre del proyecto, su versión, una descripción del proyecto, así como también la lista de dependencias que utiliza y scripts que se pueden ejecutar.
+El archivo [***package.json***](https://github.com/Santiago1010/template-vue/blob/main/package.json "***package.json***") es un archivo que se utiliza en proyectos de *Node.js* para registrar información sobre el proyecto, así como también las dependencias que utiliza. Este archivo suele incluir información como el nombre del proyecto, su versión, una descripción del proyecto, así como también la lista de dependencias que utiliza y scripts que se pueden ejecutar.
 
-El archivo **package.json es esencial para cualquier proyecto de Node.js**, ya que permite gestionar las dependencias del proyecto de manera sencilla. Por ejemplo, cuando se utiliza el comando `npm install` para instalar las dependencias de un proyecto, *npm* utiliza el archivo **package.json** para saber qué dependencias deben instalarse. Además, el archivo **package.json** también permite definir scripts que se pueden ejecutar de manera sencilla utilizando el comando `npm run`.
+El archivo **[package.json ](https://github.com/Santiago1010/template-vue/blob/main/package.json "package.json ")es esencial para cualquier proyecto de Node.js**, ya que permite gestionar las dependencias del proyecto de manera sencilla. Por ejemplo, cuando se utiliza el comando `npm install` para instalar las dependencias de un proyecto, *npm* utiliza el archivo [***package.json***](https://github.com/Santiago1010/template-vue/blob/main/package.json "***package.json***") para saber qué dependencias deben instalarse. Además, el archivo [***package.json***](https://github.com/Santiago1010/template-vue/blob/main/package.json "***package.json***") también permite definir scripts que se pueden ejecutar de manera sencilla utilizando el comando `npm run`.
 
-En resumen, el archivo **package.json** es un archivo fundamental en proyectos de *Node.js*, ya que permite gestionar las dependencias del proyecto y definir scripts que se pueden ejecutar de manera sencilla.
+En resumen, el archivo [***package.json***](https://github.com/Santiago1010/template-vue/blob/main/package.json "***package.json***") es un archivo fundamental en proyectos de *Node.js*, ya que permite gestionar las dependencias del proyecto y definir scripts que se pueden ejecutar de manera sencilla.
 
 ### vite.config.js
-El archivo **vite.config.js** es un archivo de configuración que se utiliza en proyectos que utilizan el servidor de desarrollo [Vite](https://vitejs.dev/guide/ "Vite"). Este archivo permite personalizar la configuración del servidor de acuerdo a las necesidades del proyecto.
+El archivo [***vite.config.js***](https://github.com/Santiago1010/template-vue/blob/main/vite.config.js "***vite.config.js***") es un archivo de configuración que se utiliza en proyectos que utilizan el servidor de desarrollo [Vite](https://vitejs.dev/guide/ "Vite"). Este archivo permite personalizar la configuración del servidor de acuerdo a las necesidades del proyecto.
 
 Este archivo utiliza la función `defineConfig` de [Vite](https://vitejs.dev/guide/ "Vite") para definir diferentes opciones y ajustes para el servidor de desarrollo.
 
-En este caso en particular, el archivo **vite.config.js** está configurado para utilizar dos *plugins*: el **plugin vue**, que permite utilizar **Vue.js** en la aplicación, y el plugin **quasar**, que permite utilizar la **librería Quasar** en la aplicación. Además, se establece una opción específica para el plugin vue, que indica que se debe utilizar la función `transformAssetUrls` para transformar las URLs de los assets en **plantillas de Vue**. También se establece una opción específica para el plugin quasar, que indica la ruta del archivo que contiene las variables SASS que se utilizarán en la aplicación.
+En este caso en particular, el archivo [***vite.config.js***](https://github.com/Santiago1010/template-vue/blob/main/vite.config.js "***vite.config.js***") está configurado para utilizar dos *plugins*: el **plugin vue**, que permite utilizar **Vue.js** en la aplicación, y el plugin **quasar**, que permite utilizar la **librería Quasar** en la aplicación. Además, se establece una opción específica para el plugin vue, que indica que se debe utilizar la función `transformAssetUrls` para transformar las URLs de los assets en **plantillas de Vue**. También se establece una opción específica para el plugin quasar, que indica la ruta del archivo que contiene las variables SASS que se utilizarán en la aplicación.
 
 ## Archivo LICENSE: MIT
 
-El archivo **LICENSE** es un archivo que suele incluirse en *repositorios de Git* para especificar los términos y condiciones de la licencia que cubre el proyecto. Esta licencia puede ser una licencia pública, como la licencia MIT, o una licencia propietaria.
+El archivo **[LICENSE](https://github.com/Santiago1010/template-vue/blob/main/LICENSE "LICENSE")** es un archivo que suele incluirse en *repositorios de Git* para especificar los términos y condiciones de la licencia que cubre el proyecto. Esta licencia puede ser una licencia pública, como la licencia MIT, o una licencia propietaria.
 
 En el caso de esta plantilla, e trata de una **licencia MIT** que cubre el software que has desarrollado, y que está siendo distribuido bajo los términos y condiciones de esta licencia.
 
@@ -195,15 +195,15 @@ El archivo ***.deleteThis*** es un archivo de muestra que se utiliza para mostra
 ## Carpetas
 
 ### Carpeta Source (/src/)
-La carpeta **src** es una carpeta común en proyectos de **Vue** que utilizan [vite.js](https://vitejs.dev/guide/env-and-mode.html "vite.js"). Esta carpeta suele contener todos los archivos fuente de la aplicación, incluyendo archivos de componentes, archivos de estilo, archivos de páginas, archivos de configuración, y otros archivos relacionados con la aplicación. La carpeta src se utiliza para organizar y mantener los archivos fuente de la aplicación, y es donde se desarrolla y se realizan cambios en la aplicación.
+La carpeta [***src***](https://github.com/Santiago1010/template-vue/tree/main/src "***src***") es una carpeta común en proyectos de **Vue** que utilizan [vite.js](https://vitejs.dev/guide/env-and-mode.html "vite.js"). Esta carpeta suele contener todos los archivos fuente de la aplicación, incluyendo archivos de componentes, archivos de estilo, archivos de páginas, archivos de configuración, y otros archivos relacionados con la aplicación. La carpeta src se utiliza para organizar y mantener los archivos fuente de la aplicación, y es donde se desarrolla y se realizan cambios en la aplicación.
 
-> Las carpetas que se encuentran dentro de /src/ ([assets](https://github.com/Santiago1010/template-vue/blob/main/src/assets/ASSETS.md "assets"), [components](https://github.com/Santiago1010/template-vue/blob/main/src/components/COMPONENTS.md "components"), [layouts](https://github.com/Santiago1010/template-vue/blob/main/src/layouts/LAYOUTS.md "layouts"), [pages](https://github.com/Santiago1010/template-vue/blob/main/src/pages/PAGES.md "pages")), cuentan con su respectivo archivo de información, al que podrás acceder haciendo click en cada uno de los nombres de la carpeta.
+> Las carpetas que se encuentran dentro de [***/src/***](https://github.com/Santiago1010/template-vue/tree/main/src "***/src/***") ([assets](https://github.com/Santiago1010/template-vue/blob/main/src/assets/ASSETS.md "assets"), [components](https://github.com/Santiago1010/template-vue/blob/main/src/components/COMPONENTS.md "components"), [layouts](https://github.com/Santiago1010/template-vue/blob/main/src/layouts/LAYOUTS.md "layouts"), [pages](https://github.com/Santiago1010/template-vue/blob/main/src/pages/PAGES.md "pages")), cuentan con su respectivo archivo de información, al que podrás acceder haciendo click en cada uno de los nombres de la carpeta.
 
 #### Archivo App.vue
-El archivo **App.vue** se utiliza para definir la estructura y el comportamiento básico de la interfaz de usuario de la aplicación y es el componente que se renderiza cuando se carga la aplicación.
+El archivo [***App.vue***](https://github.com/Santiago1010/template-vue/blob/main/src/App.vue "***App.vue***") se utiliza para definir la estructura y el comportamiento básico de la interfaz de usuario de la aplicación y es el componente que se renderiza cuando se carga la aplicación.
 
 ### Archivo main.js
-El archivo **main.js** es un archivo de configuración principal en un proyecto de **Vue**. Este archivo contiene código que se ejecuta al inicio de la aplicación y es donde se inicializa la instancia principal de **Vue**. También se pueden importar y configurar otros módulos y plugins en este archivo. El archivo **main.js** es el punto de entrada de la aplicación y se utiliza para configurar y ejecutar la aplicación de **Vue**.
+El archivo [***main.js***](https://github.com/Santiago1010/template-vue/blob/main/src/main.js "***main.js***") es un archivo de configuración principal en un proyecto de **Vue**. Este archivo contiene código que se ejecuta al inicio de la aplicación y es donde se inicializa la instancia principal de **Vue**. También se pueden importar y configurar otros módulos y plugins en este archivo. El archivo **main.js** es el punto de entrada de la aplicación y se utiliza para configurar y ejecutar la aplicación de **Vue**.
 
 ## Reglas generales de desarrollo
 
